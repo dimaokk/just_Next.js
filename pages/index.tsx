@@ -33,11 +33,18 @@ export default function Home() {
       </Head>
       <Header />
       <main className={styles.container}>
-        <Container sx={{ paddingY: "20px" }} maxWidth="xl">
+        <Container
+          sx={{
+            paddingY: "20px",
+          }}
+          maxWidth="xl"
+        >
           <Grid
             container
             rowSpacing={1}
             columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+            alignItems={"center"}
+            justifyContent={"center"}
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map((el) => (
               <Grid item>
