@@ -1,0 +1,11 @@
+.container {
+  /* background-color: #f4f6f6; */
+  height: 100%;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  min-height: 70px;
+}
